@@ -337,8 +337,28 @@ function firework(e){
   // setInterval(firework(e), 50);
 }
 
+//TODO simple animation using animate function instead of setinterval
+// var canvas = document.getElementById("canvasAnimation");
+// var ctx = canvas.getContext("2d");
+// window.onload = function(){
+//   animate(canvas, ctx);
+// };
+//   function animate(canvas, ctx){
+//     ctx.clearRect(0, 0, canvas.width, canvas.height);
+//     ctx.lineWidth = 5;
+//     ctx.beginPath();
+//     ctx.moveTo(100, 200);
+//     ctx.lineTo(200, 300);
+//     ctx.stroke();
+//     ctx.closePath();
+//
+//     window.requestAnimationFrame(function(){
+//       animate(canvas, ctx);
+//     });
+//   }
+
 
 // $('#myCanvas').click(drawSnake);
 setInterval(drawSnake, 50);
 setInterval(drawSpirals, 50);
-$('#canvas3').click(firework);
+// $('#canvas3').click(firework);
